@@ -13,7 +13,7 @@ import java.util.Date;
 public class User {
     private Integer id;
 
-    @Size(min=2)
+    @Size(min=2, message = "두 글자 이상을 입력해주세요.")
     private String name;
     
     @Past
