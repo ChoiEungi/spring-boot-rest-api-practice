@@ -15,6 +15,8 @@ application.properties: Spring setting  → .yml을 더 많이 사용
 
 dispatcherServlet → '/'
 
+<img src = "https://user-images.githubusercontent.com/70755947/124256657-82a60e80-db66-11eb-96ba-f8e172108387.png">
+
 클라이언트의 모든 요청을 한 곳으로 바당서 요청에 맞는 Handler로 요청을 전달, Handler의 실행 결과를 Http Respons 형태로 만들어 변환 
 
 - RestController
@@ -23,7 +25,8 @@ Spring 4부터 .@RestController 지원: Controller + ResponseBody
 
 View를 갖지 않는 RestData를 반환 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b47f1f4b-5688-45b3-b2e2-ec8ba4788b31/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b47f1f4b-5688-45b3-b2e2-ec8ba4788b31/Untitled.png)
+
+<img src="https://user-images.githubusercontent.com/70755947/124256544-63a77c80-db66-11eb-9ecc-7eb045e9fbbf.png" >
 
 path varibale annotation
 
@@ -37,8 +40,6 @@ path varibale annotation
 ### POST
 
 - body에 JSON 추가
-
-git key: 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
 
 HTTP status Code control 
 
